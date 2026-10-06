@@ -29,7 +29,7 @@ export default function MainWeather({ cityName, temp }:any) {
       className={`bg-cover bg-center  border h-50 border-white/20 shadow-lg w-full max-w-4xl  p-6 my-10 mb-3 rounded-xl flex justify-between items-center px-3 overflow-hidden transition-all duration-300 hover:scale-105`}
     >
     
-      <div className="flex flex-col items-center text-center gap-4">
+      <div className="flex md:flex-col items-center text-center gap-4">
         <h1 className="text-3xl font-bold text-white  md:text-3xl">{cityName}</h1>
         <p className="text-lg md:text-2xl">{temp.current.time}</p>
       </div>
