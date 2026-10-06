@@ -114,7 +114,7 @@ export default function WeatherApp() {
     <div
       className={`bg-gradient-to-br ${getWeatherBg(temp?.current?.weather_code)} min-h-screen flex flex-col items-center  h-full sm:h-screen md:h-screen`}
     >
-      <h1 className=" mb-6 mt-12 text-3xl md:text-4xl sm:text-3xl font-bold">
+      <h1 className=" mb-6 mt-12 text-2xl md:text-4xl  font-bold">
         How`s the sky looking today?
       </h1>
       <div className="w-full max-w-3xl mx-auto px-4 flex flex-col items-center  ">
